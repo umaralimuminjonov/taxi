@@ -1,9 +1,9 @@
 export enum Errors {
   ServerError = "SERVER_ERROR",
   DatabaseError = "DATABASE_ERROR",
-  UserNotFound = "USER_NOT_FOUND",
+  DriverNotFound = "DRIVER_NOT_FOUND",
   AlreadyExist = "ALREADY_EXIST",
-  UserBlocked = "USER_BLOCKED",
+  DriverBlocked = "DRIVER_BLOCKED",
   Unauthorized = "UNAUTHORIZED",
   Forbidden = "FORBIDDEN",
   IncorrectPassword = "INCORRECT_PASSWORD",
